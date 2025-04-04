@@ -1,0 +1,41 @@
+.fruits {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.fruits__item {
+    display: table;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.fruits__content, .fruits__image {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fruits__content {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.fruits__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fruits__description {
+    font-size: 16px;
+    color: #333;
+}
+
+.fruits__image {
+    width: 40%;
+    text-align: right;
+}
+
+.fruits__image img {
+    max-width: 100%;
+    height: auto;
+    
+}

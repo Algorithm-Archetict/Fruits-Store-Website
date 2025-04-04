@@ -1,0 +1,14 @@
+@import url("styles/base.css");
+@import url("styles/layout.css");
+@import url("styles/typography.css");
+@import url("styles/colors.css");
+@import url("styles/components.css");
+@import url("styles/header.css");
+@import url("styles/footer.css");
+@import url("styles/hero.css");
+@import url("styles/testimonials.css");
+
+@import url("styles/pages/home.css");
+@import url("styles/pages/fruits.css");
+@import url("styles/pages/contact.css");
+@import url("styles/pages/services.css");

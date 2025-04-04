@@ -1,0 +1,62 @@
+
+    
+    
+    .footer-content {
+        display: block;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    
+    .footer-column {
+        display: inline-block; /* Inline-block for horizontal layout */
+        width: 24%; /* Distribute width equally */
+        vertical-align: top;
+        padding: 10px;
+        box-sizing: border-box; /* Include padding in width calculation */
+    }
+    
+    .footer-column h3 {
+        margin-bottom: 10px;
+    }
+    
+    .footer-column p {
+        font-size: 0.9em;
+        line-height: 1.5;
+        width: 40%;
+    }
+    
+    .follow-us .social-icons a {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    .follow-us .social-icons img {
+        height: 30px;
+    }
+    
+    .follow-us .subscribe-form input[type="email"] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        margin-right: 10px;
+    }
+    
+    .follow-us .subscribe-form button {
+        padding: 8px 15px;
+        background-color: var(--button-primary-color);
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .copyright {
+        background-color: var(--page-section-bg);
+        text-align: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-top: 1px solid #ddd;
+        
+    }
+    
+    .copyright p {
+        margin: 0px;
+    }

@@ -1,0 +1,76 @@
+
+  header {
+    background-color: var(--page-section-bg);
+    height: 45px;
+    position: relative;
+    
+}
+
+.header dev {
+  display: inline-block;
+}
+
+.logo {
+    position: absolute;
+    left: 12%;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+    top: 50%;
+    text-align: center;
+    
+}
+
+.logo h4 {
+    display: inline;
+}
+
+
+nav {
+    position: absolute;
+    float: right;
+    right: 12%;
+}
+
+nav button {
+  background-color: transparent;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    
+}
+
+
+
+.search {
+    position: absolute;
+    /*display: inline-block;*/
+    float: right;
+    right: 0%;
+}
+
+.search button {
+    padding: 8px 12px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    display: inline-block;
+}

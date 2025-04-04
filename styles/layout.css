@@ -1,0 +1,13 @@
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .section {
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--background-color);
+  }
+  
+  

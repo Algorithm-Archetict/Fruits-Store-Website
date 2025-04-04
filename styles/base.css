@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--button-secondary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+  button:hover {
+    background-color: var(--background-color);
+    color: #222;
+    border-color: #222;
+  }
+  
+  
